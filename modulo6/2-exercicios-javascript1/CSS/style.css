@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(0, 119, 119);
+}
+
+header {
+    text-align: center;
+    margin: 8px 0;
+}
+
+section {
+    width: 400px;
+    height: 400px;
+    border-radius: 35px;
+    background-color: white;
+    padding: 12px 6px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section .contagem {
+    width: 90%;
+    height: 50%;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.contagem .linha {
+    padding: 13px 0;
+    display: flex;
+    width: 100%;
+}
+
+.contagem .linha input {
+    padding: 3px;
+    margin: 0 8px;
+}
+
+section .res {
+    width: 90%;
+    padding: 4px 0;
+    margin: 0 auto;
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+}
+
+section .res input {
+    width: 65px;
+    height: 25px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}

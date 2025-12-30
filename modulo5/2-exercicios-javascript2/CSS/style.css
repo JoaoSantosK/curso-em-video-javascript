@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(152, 187, 218);
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.397);
+}
+
+div {
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding: 15px 0;
+}

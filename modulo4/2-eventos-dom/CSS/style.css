@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font: normal 18pt Arial;
+}
+
+div#area {
+    background-color: rgb(34, 202, 34);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+
